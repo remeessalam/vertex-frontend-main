@@ -7,7 +7,7 @@ export const api = axios.create({
     import.meta.env.VITE_API_URL ||
     (window.location.hostname === "localhost"
       ? "http://localhost:5001"
-      : "https://vertex-backend-main.vercel.app"),
+      : "https://vertex-backend-main.vercel.app/"),
   headers: {
     "Content-Type": "application/json",
   },
